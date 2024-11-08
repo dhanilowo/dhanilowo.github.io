@@ -1,0 +1,236 @@
+header {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 242, 242);
+    max-width: 100%;
+}
+
+.item-header1 {
+    padding: 5px;
+    text-justify: 315px;
+    width: 50%;
+    background-color: rgb(37, 37, 37);
+    font-size: 15px;
+    text-indent: 255px;
+}
+
+.item-header2 {
+    padding: 5px;
+    width: 50%;
+    background-color: rgb(37, 37, 37);
+    font-size: 15px;
+    text-align: center;
+    text-indent: 250px;
+}
+
+.item-header3 {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    text-indent: 250px;
+}
+
+.containerSmartphoneOptions {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin: 60px;
+    gap: 0px 30px;
+}
+
+.cardSmartphoneOptions {
+    text-align: center;
+    font-size: 15px;
+}
+
+.containerFeatured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    text-align: center;
+    margin-top: 15px;
+    max-width: 80%;
+    border-radius: 10px;
+    border: 0.1px transparent;
+    gap: 20px 20px;
+}
+
+.cardFeatured {
+    border-radius: 10px;
+    border: 2px solid rgb(68, 160, 221);
+    background-color: white;
+}
+
+.textFeatured {
+    text-indent: 470px;
+    font-size: 15px;
+}
+
+.buy {
+    background-color: rgb(68, 160, 221);
+    padding: 12px 24px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0.1px transparent;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.adv {
+    margin: 60px;
+    justify-content: center;
+}
+
+.containerExtras1 {
+    display: flex;
+    justify-self: center;
+    flex-flow: row wrap;
+    margin: 60px;
+    gap: 30px 30px;
+}
+
+.containerExtras2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerExtras3 {
+    display: flex;
+    flex-direction: column;  
+    gap: 15px 0px; 
+}
+
+.cardExtras1 {
+    border-radius: 10px;
+    border: 2px solid rgb(68, 160, 221);
+    height: 547px;
+    background-color: white;
+}
+
+.textCardExtras1 {
+    text-align: center;
+}
+
+.cardExtras2 {
+    border-radius: 10px;
+    border: 2px solid rgb(68, 160, 221);
+    padding: 30px;
+    padding-bottom: 140px;
+    text-align: center;
+    background-color: white;
+}
+
+.cardExtras3 {
+    border-radius: 10px;
+    border: 2px solid rgb(68, 160, 221);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 50px;
+    text-align: center;
+    width: 500px;
+    background-color: white;
+}
+
+.cardExtras3 img{
+    width: 120px;
+ }
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(68, 160, 221);
+    font-size: 15px;
+}
+
+.containerFooter3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    padding: 70px;
+    align-items: center;
+}
+
+.containerFooter1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 20%;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.containerFooter1 a {
+    color: black;
+}
+
+.containerFooter1 span {
+    line-height: 50px;
+}
+
+.containerFooter1 p {
+    line-height: 10px;
+}
+
+.containerFooter2 {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.roboto-regular {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: italic;
+}
+
+@media screen and (max-width:700px) {
+
+    .adv img{
+        width: 400px;
+    }
+
+    .textFeatured {
+        text-indent: 0px;
+        text-align: center; 
+    } 
+    
+    .item-header1 {
+        text-indent: 0px;
+        text-align: left;
+    }
+
+    .item-header2 {
+        text-indent: 0px;
+        text-align: right;
+    }
+
+    .item-header3 {
+        text-indent: 0px;
+        text-align: left;
+    }
+}
