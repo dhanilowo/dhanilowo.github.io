@@ -42,6 +42,7 @@ body {
     flex-wrap: wrap;
     margin: 60px;
     gap: 0px 30px;
+    justify-content: space-around;
 }
 
 .cardSmartphoneOptions {
@@ -53,6 +54,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
+    justify-content: space-around;
     text-align: center;
     margin-top: 15px;
     max-width: 80%;
@@ -65,10 +67,11 @@ body {
     border-radius: 10px;
     border: 2px solid rgb(68, 160, 221);
     background-color: white;
+    justify-content: space-around;
 }
 
 .textFeatured {
-    text-indent: 470px;
+    text-indent: 355px;
     font-size: 15px;
 }
 
@@ -86,6 +89,7 @@ body {
 
 .adv {
     margin: 60px;
+    justify-self: center;
     justify-content: center;
 }
 
@@ -100,12 +104,15 @@ body {
 .containerExtras2 {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
 }
 
 .containerExtras3 {
     display: flex;
     flex-direction: column;  
     gap: 15px 0px; 
+    margin: 0 auto;
+    
 }
 
 .cardExtras1 {
@@ -139,6 +146,16 @@ body {
     background-color: white;
 }
 
+@media screen and (max-width:510px) {
+    .cardExtras3{
+        width: 350px;
+    }
+
+    .cardExtras2{
+        width: 300px;
+    }
+}
+
 .cardExtras3 img{
     width: 120px;
  }
@@ -157,7 +174,7 @@ footer {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px 20px;
-    padding: 70px;
+    padding-top: 10px;
     align-items: center;
 }
 
@@ -209,6 +226,10 @@ footer {
 }
 
 @media screen and (max-width:700px) {
+    .cardSmartphoneOptions img {
+        width: 130px;
+        justify-content: space-between;
+    }
 
     .adv img{
         width: 400px;
@@ -232,5 +253,10 @@ footer {
     .item-header3 {
         text-indent: 0px;
         text-align: left;
+    }
+
+    .cardExtras1 img {
+        height: 200px;
+        width: 400px;
     }
 }
